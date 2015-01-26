@@ -13,9 +13,9 @@
 		EA60F9331A63BF1300C05063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA60F9311A63BF1300C05063 /* Main.storyboard */; };
 		EA60F9351A63BF1300C05063 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA60F9341A63BF1300C05063 /* Images.xcassets */; };
 		EA60F9381A63BF1300C05063 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA60F9361A63BF1300C05063 /* LaunchScreen.xib */; };
-		EA60F9551A63BF6100C05063 /* NSString+THToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EA60F94F1A63BF6100C05063 /* NSString+THToolKit.m */; };
-		EA60F9561A63BF6100C05063 /* NSURL+THToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EA60F9511A63BF6100C05063 /* NSURL+THToolKit.m */; };
-		EA60F9571A63BF6100C05063 /* UIImage+THToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EA60F9541A63BF6100C05063 /* UIImage+THToolKit.m */; };
+		EAA2F1161A679F6700E0B72A /* NSString+THToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2F10F1A679F6700E0B72A /* NSString+THToolKit.m */; };
+		EAA2F1171A679F6700E0B72A /* NSURL+THToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2F1111A679F6700E0B72A /* NSURL+THToolKit.m */; };
+		EAA2F1181A679F6700E0B72A /* UIImage+THToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2F1151A679F6700E0B72A /* UIImage+THToolKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +29,14 @@
 		EA60F9321A63BF1300C05063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA60F9341A63BF1300C05063 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA60F9371A63BF1300C05063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EA60F94E1A63BF6100C05063 /* NSString+THToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+THToolKit.h"; sourceTree = "<group>"; };
-		EA60F94F1A63BF6100C05063 /* NSString+THToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+THToolKit.m"; sourceTree = "<group>"; };
-		EA60F9501A63BF6100C05063 /* NSURL+THToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+THToolKit.h"; sourceTree = "<group>"; };
-		EA60F9511A63BF6100C05063 /* NSURL+THToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+THToolKit.m"; sourceTree = "<group>"; };
-		EA60F9521A63BF6100C05063 /* THMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMacros.h; sourceTree = "<group>"; };
-		EA60F9531A63BF6100C05063 /* UIImage+THToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+THToolKit.h"; sourceTree = "<group>"; };
-		EA60F9541A63BF6100C05063 /* UIImage+THToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+THToolKit.m"; sourceTree = "<group>"; };
-		EA60F9681A63C8C800C05063 /* THToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THToolKit.h; sourceTree = "<group>"; };
+		EAA2F10E1A679F6700E0B72A /* NSString+THToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+THToolKit.h"; sourceTree = "<group>"; };
+		EAA2F10F1A679F6700E0B72A /* NSString+THToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+THToolKit.m"; sourceTree = "<group>"; };
+		EAA2F1101A679F6700E0B72A /* NSURL+THToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+THToolKit.h"; sourceTree = "<group>"; };
+		EAA2F1111A679F6700E0B72A /* NSURL+THToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+THToolKit.m"; sourceTree = "<group>"; };
+		EAA2F1121A679F6700E0B72A /* THMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMacros.h; sourceTree = "<group>"; };
+		EAA2F1131A679F6700E0B72A /* THToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THToolKit.h; sourceTree = "<group>"; };
+		EAA2F1141A679F6700E0B72A /* UIImage+THToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+THToolKit.h"; sourceTree = "<group>"; };
+		EAA2F1151A679F6700E0B72A /* UIImage+THToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+THToolKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 		EA60F91B1A63BF1300C05063 = {
 			isa = PBXGroup;
 			children = (
-				EA60F94D1A63BF6100C05063 /* THToolKit */,
+				EAA2F10D1A679F6700E0B72A /* THToolKit */,
 				EA60F9261A63BF1300C05063 /* THToolKitDemo */,
 				EA60F9251A63BF1300C05063 /* Products */,
 			);
@@ -91,20 +91,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EA60F94D1A63BF6100C05063 /* THToolKit */ = {
+		EAA2F10D1A679F6700E0B72A /* THToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				EA60F94E1A63BF6100C05063 /* NSString+THToolKit.h */,
-				EA60F94F1A63BF6100C05063 /* NSString+THToolKit.m */,
-				EA60F9501A63BF6100C05063 /* NSURL+THToolKit.h */,
-				EA60F9511A63BF6100C05063 /* NSURL+THToolKit.m */,
-				EA60F9521A63BF6100C05063 /* THMacros.h */,
-				EA60F9531A63BF6100C05063 /* UIImage+THToolKit.h */,
-				EA60F9541A63BF6100C05063 /* UIImage+THToolKit.m */,
-				EA60F9681A63C8C800C05063 /* THToolKit.h */,
+				EAA2F10E1A679F6700E0B72A /* NSString+THToolKit.h */,
+				EAA2F10F1A679F6700E0B72A /* NSString+THToolKit.m */,
+				EAA2F1101A679F6700E0B72A /* NSURL+THToolKit.h */,
+				EAA2F1111A679F6700E0B72A /* NSURL+THToolKit.m */,
+				EAA2F1121A679F6700E0B72A /* THMacros.h */,
+				EAA2F1131A679F6700E0B72A /* THToolKit.h */,
+				EAA2F1141A679F6700E0B72A /* UIImage+THToolKit.h */,
+				EAA2F1151A679F6700E0B72A /* UIImage+THToolKit.m */,
 			);
 			name = THToolKit;
-			path = ../../THToolKit;
+			path = ../THToolKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,12 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA60F9571A63BF6100C05063 /* UIImage+THToolKit.m in Sources */,
-				EA60F9551A63BF6100C05063 /* NSString+THToolKit.m in Sources */,
+				EAA2F1181A679F6700E0B72A /* UIImage+THToolKit.m in Sources */,
+				EAA2F1161A679F6700E0B72A /* NSString+THToolKit.m in Sources */,
 				EA60F9301A63BF1300C05063 /* ViewController.m in Sources */,
 				EA60F92D1A63BF1300C05063 /* AppDelegate.m in Sources */,
 				EA60F92A1A63BF1300C05063 /* main.m in Sources */,
-				EA60F9561A63BF6100C05063 /* NSURL+THToolKit.m in Sources */,
+				EAA2F1171A679F6700E0B72A /* NSURL+THToolKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +325,7 @@
 				EA60F9491A63BF1300C05063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
