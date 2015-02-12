@@ -13,5 +13,6 @@
 
 - (CGSize)th_sizeWithFont:(UIFont *)font width:(CGFloat)width;
 - (BOOL)th_isNumber;
+- (NSString *)th_stringByStrippingHTML;
 
 @end

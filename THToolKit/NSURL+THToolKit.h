@@ -11,5 +11,8 @@
 @interface NSURL (THToolKit)
 
 + (NSDictionary *)th_parseURLQueryString:(NSString *)queryString;
++ (NSDictionary *)th_parseURLString:(NSString *)urlString;
++ (NSString *)th_hostFromURLString:(NSString *)urlString;
++ (NSString *)th_queryStringFromURLString:(NSString *)urlString;
 
 @end

@@ -49,4 +49,12 @@
     return NO;
 }
 
+- (NSString *)th_stringByStrippingHTML {
+    NSRange range;
+    NSString *result = self;
+    while ((range = [result rangeOfString:@"<[^>]+>" options:NSRegularExpressionSearch]).location != NSNotFound)
+        result = [result stringByReplacingCharactersInRange:range withString:@""];
+    return result;
+}
+
 @end
