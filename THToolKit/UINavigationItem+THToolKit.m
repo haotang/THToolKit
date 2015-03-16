@@ -25,7 +25,7 @@
     UIBarButtonItem *separator = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
     separator.width = offset;
     if (rightItem) {
-        [self setRightBarButtonItems:@[separator, rightItem]];
+        [self setRightBarButtonItems:@[rightItem, separator]];
     }
     else {
         [self setRightBarButtonItems:@[separator]];
