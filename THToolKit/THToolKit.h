@@ -10,4 +10,5 @@
 #import "NSString+THToolKit.h"
 #import "NSURL+THToolKit.h"
 #import "UIImage+THToolKit.h"
+#import "UINavigationItem+THToolKit.h"
 

@@ -17,6 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithTitle:@"Next"
+                                                                 style:UIBarButtonItemStyleBordered
+                                                                target:self
+                                                                action:nil];
+    [self.navigationItem th_setLeftBarButtonItem:leftItem offset:12];
 }
 
 @end
